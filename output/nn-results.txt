@@ -1,0 +1,217 @@
+// test-size -> 0.25
+// 2 Dense Layer 64 Neuronen (relu, relu), 1 Dense Layer 30 Output Neuronen (softmax)
+// optimizer -> adam
+// loss function -> categorical crossentropy
+// epochs -> 10, batch_size -> 32
+
+229/229 [==============================] - 0s 678us/step
+Accuracy of x0: 0.9791040699262497
+Feature 12:, Importance: 0.2705
+Feature 9:, Importance: 0.267
+Feature 13:, Importance: 0.2648
+Feature 18:, Importance: 0.2574
+Feature 17:, Importance: 0.2522
+Feature 19:, Importance: 0.2499
+Feature 14:, Importance: 0.2305
+Feature 7:, Importance: 0.2228
+Feature 8:, Importance: 0.2174
+Feature 6:, Importance: 0.1896
+13/13 [==============================] - 0s 789us/step
+Accuracy of x1: 0.9803439803439803
+Feature 7:, Importance: 0.2394
+Feature 4:, Importance: 0.2355
+Feature 9:, Importance: 0.2333
+Feature 5:, Importance: 0.2292
+Feature 8:, Importance: 0.2261
+Feature 3:, Importance: 0.2189
+Feature 2:, Importance: 0.2102
+Feature 1:, Importance: 0.2085
+Feature 6:, Importance: 0.1967
+13/13 [==============================] - 0s 814us/step
+Accuracy of x2: 0.7911547911547911
+Feature 31:, Importance: 0.2074
+Feature 19:, Importance: 0.203
+Feature 25:, Importance: 0.2013
+Feature 33:, Importance: 0.1993
+Feature 18:, Importance: 0.1976
+Feature 26:, Importance: 0.1954
+Feature 32:, Importance: 0.193
+Feature 24:, Importance: 0.1905
+Feature 17:, Importance: 0.1732
+Feature 27:, Importance: 0.1382
+
+// test-size -> 0.3
+// 2 Dense Layer 64 Neuronen (relu, relu), 1 Dense Layer 30 Output Neuronen (softmax)
+// optimizer -> adam
+// loss function -> categorical crossentropy
+// epochs -> 10, batch_size -> 32
+
+275/275 [==============================] - 0s 715us/step
+Accuracy of x0: 0.9805394332536702
+Feature 13:, Importance: 0.2818
+Feature 18:, Importance: 0.2762
+Feature 9:, Importance: 0.271
+Feature 19:, Importance: 0.2603
+Feature 17:, Importance: 0.2579
+Feature 14:, Importance: 0.2565
+Feature 12:, Importance: 0.2437
+Feature 7:, Importance: 0.2239
+Feature 8:, Importance: 0.2227
+Feature 11:, Importance: 0.2053
+16/16 [==============================] - 0s 785us/step
+Accuracy of x1: 0.9795501022494888
+Feature 5:, Importance: 0.2403
+Feature 8:, Importance: 0.2343
+Feature 9:, Importance: 0.2319
+Feature 6:, Importance: 0.2272
+Feature 7:, Importance: 0.2163
+Feature 4:, Importance: 0.2128
+Feature 2:, Importance: 0.2101
+Feature 3:, Importance: 0.1915
+Feature 1:, Importance: 0.1865
+16/16 [==============================] - 0s 768us/step
+Accuracy of x2: 0.7914110429447853
+Feature 33:, Importance: 0.2035
+Feature 25:, Importance: 0.2018
+Feature 19:, Importance: 0.197
+Feature 24:, Importance: 0.1964
+Feature 31:, Importance: 0.194
+Feature 26:, Importance: 0.1931
+Feature 17:, Importance: 0.1822
+Feature 32:, Importance: 0.1764
+Feature 18:, Importance: 0.1704
+Feature 23:, Importance: 0.1475
+
+=================================> keine Unterschiede
+
+// test-size -> 0.25
+// 2 Dense Layer 128 Neuronen (relu, relu), 1 Dense Layer 30 Output Neuronen (softmax)
+// optimizer -> adam
+// loss function -> categorical crossentropy
+// epochs -> 10, batch_size -> 32
+
+229/229 [==============================] - 0s 716us/step
+Accuracy of x0: 0.9845670581808249
+Feature 19:, Importance: 0.4736
+Feature 17:, Importance: 0.4534
+Feature 18:, Importance: 0.4467
+Feature 8:, Importance: 0.4322
+Feature 7:, Importance: 0.431
+Feature 9:, Importance: 0.4296
+Feature 13:, Importance: 0.4269
+Feature 12:, Importance: 0.4074
+Feature 14:, Importance: 0.4055
+Feature 6:, Importance: 0.3338
+13/13 [==============================] - 0s 897us/step
+Accuracy of x1: 0.9803439803439803
+Feature 5:, Importance: 0.3387
+Feature 7:, Importance: 0.3338
+Feature 8:, Importance: 0.3335
+Feature 9:, Importance: 0.3271
+Feature 2:, Importance: 0.3176
+Feature 3:, Importance: 0.3144
+Feature 1:, Importance: 0.3057
+Feature 4:, Importance: 0.3055
+Feature 6:, Importance: 0.3018
+13/13 [==============================] - 0s 879us/step
+Accuracy of x2: 0.8058968058968059
+Feature 33:, Importance: 0.3196
+Feature 31:, Importance: 0.3115
+Feature 25:, Importance: 0.3047
+Feature 19:, Importance: 0.3006
+Feature 26:, Importance: 0.2949
+Feature 32:, Importance: 0.2863
+Feature 24:, Importance: 0.2818
+Feature 17:, Importance: 0.275
+Feature 10:, Importance: 0.2582
+Feature 18:, Importance: 0.2497
+
+=================================> ein ticken besser (ca. 1%)
+
+// test-size -> 0.25
+// 2 Dense Layer 64 Neuronen (sigmoid, sigmoid), 1 Dense Layer 30 Output Neuronen (softmax)
+// optimizer -> adam
+// loss function -> categorical crossentropy
+// epochs -> 10, batch_size -> 32
+
+229/229 [==============================] - 0s 712us/step
+Accuracy of x0: 0.9739142310844031
+Feature 13:, Importance: 1.147
+Feature 19:, Importance: 0.9597
+Feature 12:, Importance: 0.93
+Feature 18:, Importance: 0.8975
+Feature 17:, Importance: 0.8779
+Feature 14:, Importance: 0.8471
+Feature 9:, Importance: 0.8392
+Feature 7:, Importance: 0.8135
+Feature 8:, Importance: 0.7903
+Feature 15:, Importance: 0.3919
+13/13 [==============================] - 1s 880us/step
+Accuracy of x1: 0.36855036855036855
+Feature 7:, Importance: 0.3324
+Feature 1:, Importance: 0.3065
+Feature 2:, Importance: 0.2948
+Feature 3:, Importance: 0.2846
+Feature 5:, Importance: 0.2826
+Feature 6:, Importance: 0.2673
+Feature 8:, Importance: 0.2664
+Feature 4:, Importance: 0.2548
+Feature 9:, Importance: 0.24
+13/13 [==============================] - 0s 815us/step
+Accuracy of x2: 0.10073710073710074
+Feature 26:, Importance: 0.2409
+Feature 17:, Importance: 0.2294
+Feature 19:, Importance: 0.2253
+Feature 24:, Importance: 0.22
+Feature 33:, Importance: 0.214
+Feature 25:, Importance: 0.1937
+Feature 31:, Importance: 0.1922
+Feature 32:, Importance: 0.1837
+Feature 18:, Importance: 0.1738
+Feature 3:, Importance: 0.147
+
+=================================> x1 und x2 schneiden richtig scheiße ab
+
+// test-size -> 0.25
+// 2 Dense Layer 64 Neuronen (relu, sigmoid), 1 Dense Layer 30 Output Neuronen (softmax)
+// optimizer -> adam
+// loss function -> categorical crossentropy
+// epochs -> 10, batch_size -> 32
+
+229/229 [==============================] - 0s 714us/step
+Accuracy of x0: 0.9782846216880634
+Feature 13:, Importance: 0.5359
+Feature 12:, Importance: 0.5285
+Feature 9:, Importance: 0.5157
+Feature 19:, Importance: 0.5109
+Feature 17:, Importance: 0.4955
+Feature 18:, Importance: 0.4954
+Feature 8:, Importance: 0.4826
+Feature 14:, Importance: 0.4731
+Feature 7:, Importance: 0.465
+Feature 11:, Importance: 0.2669
+13/13 [==============================] - 0s 844us/step
+Accuracy of x1: 0.9459459459459459
+Feature 7:, Importance: 0.3392
+Feature 5:, Importance: 0.3341
+Feature 9:, Importance: 0.3261
+Feature 6:, Importance: 0.3249
+Feature 4:, Importance: 0.3083
+Feature 2:, Importance: 0.2924
+Feature 3:, Importance: 0.2791
+Feature 8:, Importance: 0.2483
+Feature 1:, Importance: 0.2454
+13/13 [==============================] - 0s 809us/step
+Accuracy of x2: 0.6167076167076168
+Feature 19:, Importance: 0.2741
+Feature 32:, Importance: 0.2647
+Feature 33:, Importance: 0.2631
+Feature 26:, Importance: 0.2586
+Feature 24:, Importance: 0.2519
+Feature 25:, Importance: 0.2462
+Feature 31:, Importance: 0.2351
+Feature 17:, Importance: 0.2196
+Feature 18:, Importance: 0.2009
+Feature 42:, Importance: 0.1364
+
+=================================> einbauen der sigmoid funktion ist nicht vorteilhaft
